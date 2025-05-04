@@ -1,0 +1,78 @@
+body {
+  background-color: chocolate;
+  font: normal 16pt;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.limpaNotas {
+  margin-right: 23px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border: black;
+  border-radius: 8px;
+  padding: 5px 6px;
+  cursor: pointer;
+}
+
+.calcularMedia {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 5px 6px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#norte {
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Para alguns casos */
+}
+
+input[type="number"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+}
+
+header {
+  color: wheat;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 3px 3px 12px rgb(0, 0, 0, 363);
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 300px;
+  }
+}
